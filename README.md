@@ -4,7 +4,7 @@ This repository contains experiments on forecasting daily ATM cash withdrawals u
 The work is based on the paper *"Calendar, Holiday, and Temporal Features for ATM Demand: Modeling, Zero Handling, and Clustering Effects"*.
 
 ## 📁 Repository Structure
-''' Markdown
+'''Markdown
 ├── environment.yml
 ├── LICENSE
 ├── README.md
@@ -98,5 +98,6 @@ For quick code tryouts, reduce the number of Optuna trials (e.g., set trials to 
 
 
 > 🔁 Each notebook is self-contained: rerun all cells from top to bottom to reproduce results.
+
 
 
