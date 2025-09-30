@@ -4,7 +4,7 @@ This repository contains experiments on forecasting daily ATM cash withdrawals u
 The work is based on the paper *"Calendar, Holiday, and Temporal Features for ATM Demand: Modeling, Zero Handling, and Clustering Effects"*.
 
 ## 📁 Repository Structure
-.
+'''
 ├── environment.yml
 ├── LICENSE
 ├── README.md
@@ -14,7 +14,7 @@ The work is based on the paper *"Calendar, Holiday, and Temporal Features for AT
 │   └── models_without_zero_handling.ipynb
 ├── results/
 │   └── standardized_models_results.xlsx
-.
+'''
 
 ## 📌 Motivation
 Efficient ATM cash management is critical for banks. Overstocking increases idle cash, insurance, and transportation costs, while understocking leads to service failures and emergency replenishments. Accurate short-term forecasting helps banks balance these trade-offs.
@@ -98,3 +98,4 @@ For quick code tryouts, reduce the number of Optuna trials (e.g., set trials to 
 
 
 > 🔁 Each notebook is self-contained: rerun all cells from top to bottom to reproduce results.
+
