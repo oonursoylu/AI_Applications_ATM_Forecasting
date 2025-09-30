@@ -14,6 +14,7 @@ The work is based on the paper *"Calendar, Holiday, and Temporal Features for AT
 │   └── models_without_zero_handling.ipynb
 ├── results/
 │   └── standardized_models_results.xlsx
+.
 
 ## 📌 Motivation
 Efficient ATM cash management is critical for banks. Overstocking increases idle cash, insurance, and transportation costs, while understocking leads to service failures and emergency replenishments. Accurate short-term forecasting helps banks balance these trade-offs.
@@ -63,10 +64,12 @@ Create and activate the environment:
 ```bash
 conda env create -f environment.yml
 conda activate ml-gpu-env
+```
 
 Start Jupyter:
 ```bash
 jupyter notebook
+```
 
 ## ▶️ How to Run
 
@@ -92,5 +95,6 @@ Run the notebooks in the following order:
 
 ⚠️ **Note:** Training with Optuna can take a long time since it runs multiple trials.  
 For quick code tryouts, reduce the number of Optuna trials (e.g., set trials to 5 instead of 100).  
+
 
 > 🔁 Each notebook is self-contained: rerun all cells from top to bottom to reproduce results.
